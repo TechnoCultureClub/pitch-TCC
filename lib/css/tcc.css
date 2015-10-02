@@ -1,0 +1,53 @@
+.reveal blockquote {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+}
+.reveal .clean {
+	border:none; 
+	background-color:transparent; 
+	box-shadow:none;
+}
+.reveal h2 {
+	font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: -0.08em;
+    position: relative;
+    left: -40px;
+}
+.reveal h2::before {
+	content:"" ;
+	height: 6px;
+	width: 40px;
+	background-color: yellow; 
+	position: relative;
+	top: -60px;
+	right: -24px;
+	display: inline-block;
+}
+.reveal a {
+	color: blue;
+}
+
+/* Styling TinkTank */
+.reveal .progress span {
+	background-color: yellow;
+}
+.reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
+	border-right-color: yellow;	
+}
+ .reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
+ 	border-left-color: yellow;
+}
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
+	border-bottom-color: yellow;
+} 
+.reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
+	border-top-color: yellow;
+}
+
+
+
+
